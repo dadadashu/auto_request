@@ -1,0 +1,2 @@
+# auto_request
+基于unittest+requests+HTMLTestRunner搭建的接口自动化测试框架
