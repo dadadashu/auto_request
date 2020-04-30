@@ -1,5 +1,10 @@
 # auto_request
 基于unittest+requests+HTMLTestRunner搭建的接口自动化测试框架
+技术栈：python 3.7 + requests + unittest
+
+依赖库：
+pip3 install requests==2.22.0
+另外还要安装你项目对应的数据库依赖
 
 包含功能:
   * 对数据的查询和删除做了封装，用于验证数据和测试数据初始化。
