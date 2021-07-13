@@ -13,7 +13,9 @@ pip3 install requests==2.22.0
   * 邮件发送html测试报告
 
 目录说明：
-common
+
+--common
+
   db_config.ini 数据库配置文件
   get_cookie.py 获取登录的cookie.yaml，用于测试用例的调用
   get_userid.py 获取登录的userid.yaml，用于测试用例的调用
@@ -22,13 +24,20 @@ common
   payload_config.ini 测试用例参数配置文件
   sendmail.py 发送邮件配置文件
 
-db_fixture
+--db_fixture
+
   postgresql_db.py 数据库的连接和基本操作的封装
   test_data.py 数据库的清除方法
 
-report html测试报告和邮件发送成功与否日志
+--report 
 
-testcase 测试用例
+html测试报告和邮件发送成功与否日志
+
+--testcase 
+
+测试用例
 
 
-run_tests.py 运行主文件
+--run_tests.py 
+
+运行主文件
